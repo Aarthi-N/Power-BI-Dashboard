@@ -28,4 +28,32 @@ The workflow of this project can be broken down into the following stages:
 
   1. **Data import and Preparation**:
 
-     Raw auto sales data was imported into Power Bi. The dataset contained fields such as sales transaction Id, dealer name, vehicle model, category, sales amount, units sold, date of sale and location. Using Power Query, the dataset was cleaned: duplicate rows were removed, missing values addressed and derived columns were created for time-based analysis.
+     Raw auto sales data was imported into Power Bi. The dataset contained fields such as sales transaction Id, dealer name, vehicle model, category, sales amount, units sold, date of sale and location. Using **Power Query**, the dataset was cleaned: duplicate rows were removed, missing values addressed and derived columns were created for time-based analysis.
+
+  2. **Data Modeling**:
+
+      Relationships were established between fact and dimension tables. The star schema design allowed for smooth slicing and dicing of sales performance.
+
+  3. **Creating calculations and KPIs with DAX**:
+
+      Several measures were created to enrich analysis. Examples include:
+
+       * Total Sales = SUM(Sales[Amount])
+       * Total Units Sold = SUM(Sales[Quantity])
+       * YoY Growth = (CurrentYearSales - PreviousYearSales) / PreviousYearSales
+       * Profit Margin = (Sales - Cost) / Sales
+
+      These KPIs provided actionable insights into performance trends.
+
+  4. **Visualization and Dashboard Design**:
+
+      An interactive dashboard was built with visuals such as:
+
+       * **Line charts**: showing sales trends over months, years and quarters.
+       * **Bar/Column charts**: comparing sales by vehicle type, dealer and region.
+       * **Pie/Donut charts**: showing market share by category or brand.
+       * **Maps**: displaying geographical distribution of auto sales across regions.
+       * **KPIs cards**: summarizing key values such as total revenue, units sold and growth percentage. Fillers and slicers were added to allow users to drill down by vehicle type, dealer or region.
+         
+     
+     
