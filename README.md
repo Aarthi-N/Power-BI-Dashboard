@@ -54,6 +54,23 @@ The workflow of this project can be broken down into the following stages:
        * **Pie/Donut charts**: showing market share by category or brand.
        * **Maps**: displaying geographical distribution of auto sales across regions.
        * **KPIs cards**: summarizing key values such as total revenue, units sold and growth percentage. Fillers and slicers were added to allow users to drill down by vehicle type, dealer or region.
+
+  5. **Insights & Business value**:
+
+      The dashboard highlighted critical patterns such as:
+
+        * Which vehicle categories contributed most to total sales.
+        * Seasonal trends in auto sales.
+        * Performance comparison among dealers and regions.
+        * Identification of underperforming products or area requiring promotional strategies.
+
+  6. **Deployment and sharing**:
+
+      The final dashboard was published to the Power Bi service. With automatic refresh enabled, the dashboard provided real time updates whenever new sales data was added.
+
+**CONCLUSION**:
+
+  This project showcases how **Power Bi** can be leveraged to transform raw auto sales data into a decision making tool. By combining data modeling, DAX calculations, and rich visualizations, the dashboard not only tracks historical sales but also provides predictive insights into future performance. The insights gained can guide pricing strategies, marketing campaigns, inventory planning, and customer engagement initiatives. Ultimately, this project emphasizes the role of **business intelligence** in improving organizational efficiency and boosting profitability in the highly competitive automotive sector.
          
      
      
